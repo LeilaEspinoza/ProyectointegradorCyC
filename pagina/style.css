@@ -1,0 +1,153 @@
+*{ 
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    background: black; 
+
+}
+
+.section-padding{ 
+    padding: 70px 0;
+
+}
+
+.carousel-item { 
+    height: 80vh;
+    min-height: 300px;
+
+}
+
+.carousel-caption{
+    bottom: 200px;
+    z-index: 2; 
+
+}
+
+.carousel-caption {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px; 
+
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9; 
+
+}
+
+.carousel-inner::before { 
+content: ´´;
+position: absolute;
+width: 100%;
+height: 100%;
+top:0;
+left: 0;
+background: rgba(0, 30, 82, 0,327);
+z-index: 1;
+
+}
+
+.navbar-nav a { 
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  
+  /* footer social icons */
+  
+  
+  
+  .social-network a.icoinstagram:hover {
+    background-color: orange;
+  }
+
+  .social-network a.icowhatsapp:hover {
+    background-color: orange;
+  }
+
+  .social-network a.icofacebook:hover {
+    background-color: orange;
+  }
+  
+  
+  .social-network a.icofacebook:hover i,
+  .social-network a.icoinstagram:hover i,
+  .social-network a.icowhatsapp:hover i {
+    color: black;
+  }
+  
+  .social-network a.socialIcon:hover,
+  .socialHoverClass {
+    color: #4f1f12;
+  }
+  
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .social-circle li a:hover i,
+  .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  
+  .social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  .social-network a {
+    background-color:black;
+  }
